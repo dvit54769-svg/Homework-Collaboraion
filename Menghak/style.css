@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+body{
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex: 2;
+}
+aside{
+    display: flex;
+    flex: 3;
+}
+nav{
+    flex: 10;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    flex: 3;
+}
