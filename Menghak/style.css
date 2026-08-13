@@ -7,20 +7,32 @@ body{
     display: flex;
     flex-direction: column;
 }
-header{
-    display: flex;
+.heading{
     flex: 2;
+    display: flex;
 }
 aside{
-    display: flex;
-    flex: 3;
+    flex: 2;
 }
-nav{
+.center{
     flex: 10;
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
 }
-footer{
+.box{
+    box-sizing: content-box;
+    height: 500px;
+    width: 400px;
     display: flex;
-    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img{
+    width: 400px;
+}
+.foot{
+    display: flex;
+    flex: 2;
 }
