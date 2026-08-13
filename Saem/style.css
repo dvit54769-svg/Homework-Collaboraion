@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: blue;
+    background-color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+main {
+    flex: 1; 
+    width: 90%;
+    max-width: 650px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    color: #ffffff;
+    margin-bottom: 1.25rem;
+    font-size: 1.05rem;
+}
+
+form {
+    background-color: rgba(0, 0, 139, 0.322);
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+form label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: blue;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid blue;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+form button {
+    background-color: blue;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    align-self: flex-start; 
+}
+
+form button:hover {
+    background-color: #1d4ed8;
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: auto;
+}
