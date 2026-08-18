@@ -7,8 +7,8 @@
 body {
     font-family: sans-serif;
     line-height: 1.6;
-    color: blue;
-    background-color: #f8fafc;
+    color: white;
+    background: url(./images/body.jpg) darkblue ;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -57,7 +57,7 @@ form {
 form label {
     font-weight: 600;
     font-size: 0.9rem;
-    color: blue;
+    color: white;
 }
 
 form input,
